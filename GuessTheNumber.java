@@ -35,7 +35,6 @@ public class GuessTheNumber {
      int answer = (int )(Math.random() * 50 + 1); 
      int guess = 0;
      int attempts = 0;
-     int lives = 5;
      
      
             Scanner scannner = new Scanner(System.in);  
